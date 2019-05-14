@@ -11,9 +11,7 @@ function callMe() {
 function crazy() {
   var thisIsCrazy = function (){
     console.log("hey!!!")
-  thisIsCrazy();
-
-
+    thisIsCrazy();
   }
 }
 
@@ -23,8 +21,9 @@ function sayMyName() {
 
   sayMy();
 
+var name = "Kristin";
   function sayMy() {
     console.log(name);
-    var name = "Kristin";
+
   }
 }
